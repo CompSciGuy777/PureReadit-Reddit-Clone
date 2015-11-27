@@ -7,11 +7,11 @@
   <%= csrf_meta_tags %>
   
  
-  <% flash.each do |name, msg| %>
+  <% flash.each do |name, msg| %><!--Error message that will tie in with Bootstrap-->
     <%= content_tag(:div, msg, class: "alert alert-#{name}") %>
   <% end %>
   
-  <% if user_signed_in? %>
+  <% if user_signed_in? %><!--Different menu option based on Sign in Status-->
   <ul>
   <li><%=link_to 'Submit Link', new_link_path%></li>
   <li><%=link_to 'Account', edit_user_registration_path%></li>
