@@ -1,4 +1,6 @@
 Rails.application.configure do
+  
+  config.action_mailer.default_url_options = { host: 'https://ruby-demo-whitelion777.c9users.io', port: 8080 }
   # Settings specified here will take precedence over those in config/application.rb.
 
   # In the development environment your application's code is reloaded on
