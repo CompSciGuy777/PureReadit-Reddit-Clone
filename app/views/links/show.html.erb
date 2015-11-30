@@ -1,5 +1,5 @@
 <div class="page-header">
-  <h1><a href="<%= @link.url %>"><%= @link.title %></a><br> <small>Submitted by <%= @link.user.name %></small></h1>
+  <h1><a href="https://<%= @link.url %>"><%= @link.title %></a><br> <small>Submitted by <%= @link.user.name %></small></h1>
 </div>
 
 <div class="btn-group">
@@ -17,6 +17,7 @@
     Downvote
     <%= @link.get_downvotes.size %>
   <% end %>
+</div>  
 
   <% if @link.user == current_user -%>
 	<div class="btn-group">
