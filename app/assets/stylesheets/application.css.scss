@@ -20,8 +20,23 @@
 #img-container{
 	width:50px;
 	padding:5px;
-	position: absolute;
+	position: static;
 			
+}
+.center{
+	width:100%;
+	margin:auto;
+	
+}
+
+.lg-img-container{
+				width:300px;
+				margin:auto;
+				.black{background-color:black;}
+			}
+
+.homepage-title{
+	text-align:center;
 }
 
 #img{
@@ -30,6 +45,7 @@
 	padding-top: 3px;
 	padding-left: 5px;
 	display: inline-block;
+	
 	}
 
 #logo {
@@ -52,7 +68,7 @@
 		padding: 2em 1em;
 		border-bottom: 1px solid #e9e9e9;
 		.title {
-
+				
 			a {
 				color: #FF4500;
 			}
