@@ -1,1 +1,15 @@
-<h1>About</h1>
+<h1 class="text-center">About</h1>
+
+<div class="lg-img-container">
+    <%= image_tag "Lion Logo 2", id: "img", class:"black clearfix"%>
+</div>
+
+<h3 class="text-center">Pure Readit is was created because I wanted a place where people could share links and make it a family friendly environment.  I </h3>
+<br>
+<p class="text-center"> --- </p>
+<br>
+<ul class="text-center">
+    <li><%= link_to 'Users Links', links_path  %></li>
+    <li><%= link_to 'About', about_path  %></li>
+    <li><%= link_to 'Contact', contact_path  %></li>
+</ul>

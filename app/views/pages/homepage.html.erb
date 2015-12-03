@@ -1,9 +1,18 @@
-<h1 class="title homepage-title">Pure Readit</h1>
+
+<h1 class="text-center">Pure Readit</h1>
 
 <div class="lg-img-container">
-    <%= image_tag "Lion Logo 2", id: "img", class:"black"%>
+    <%= image_tag "Lion Logo 2", id: "img", class:"black clearfix"%>
 </div>
 
-<h3 class="title homepage-title">Welcome!  This is a place for you to share links about studying the bible, or otherwise growing in faith.
+<h3 class="text-center">Welcome!  This is a place for you to share links about studying the bible, or otherwise growing in faith.
 This is a moderated site so do not use profane language or images and please remain respectful dispite dissenting view points.
 </h3>
+<br>
+<p class="text-center"> --- </p>
+<br>
+<ul class="text-center">
+    <li><%= link_to 'Users Links', links_path  %></li>
+    <li><%= link_to 'About', about_path  %></li>
+    <li><%= link_to 'Contact', contact_path  %></li>
+</ul>
