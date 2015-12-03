@@ -17,6 +17,21 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
+#img-container{
+	width:50px;
+	padding:5px;
+	position: absolute;
+			
+}
+
+#img{
+	width:100%;
+	line-height: 22px;
+	padding-top: 3px;
+	padding-left: 5px;
+	display: inline-block;
+	}
+
 #logo {
 	font-size: 26px;
 	font-weight: 700;
